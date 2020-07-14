@@ -1,0 +1,23 @@
+.main-box {
+	background-color: var(--color-secondary);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main-box .title {
+	flex-grow: 1;
+	height: fit-content;
+	color: var(--color-primary);
+	font-size: 2rem;
+	font-weight: bold;
+	border-bottom: solid var(--color-primary) 0.5rem;
+	padding: 0.5rem;
+	text-transform: uppercase;
+}
+
+.main-box .item {
+	padding: 2rem;
+	/* display: flex;
+	flex-direction: column; */
+}
