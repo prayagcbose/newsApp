@@ -16,8 +16,22 @@
 	text-transform: uppercase;
 }
 
+.main-box .item-box {
+	max-height: 20rem;
+	overflow-y: scroll;
+}
+
+.main-box::-webkit-scrollbar {
+	display: none;
+}
+
+.item-box::-webkit-scrollbar {
+	display: none;
+}
+
 .main-box .item {
 	padding: 2rem;
+
 	/* display: flex;
 	flex-direction: column; */
 }

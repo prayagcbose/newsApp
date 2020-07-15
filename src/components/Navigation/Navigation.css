@@ -1,0 +1,13 @@
+.navbar-expanded-md {
+	background-color: red;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.icon-btn {
+	color: var(--color-secondary);
+}
+
+.Nav-Btn {
+	background-color: var(--color-primary);
+}

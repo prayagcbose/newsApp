@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Main.css";
+import "./MainBox.css";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -13,14 +13,16 @@ function MainBox(props) {
 	return (
 		<div className="main-box">
 			<div className="title">Headings</div>
-			{inputArray.map((item, index) => {
-				return (
-					<div key={index} className="item">
-						{item}
-						<hr></hr>
-					</div>
-				);
-			})}
+			<div className="item-box">
+				{inputArray.map((item, index) => {
+					return (
+						<div key={index} className="item">
+							{item}
+							<hr></hr>
+						</div>
+					);
+				})}
+			</div>
 		</div>
 	);
 }
