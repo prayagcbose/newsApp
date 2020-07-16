@@ -1,13 +1,14 @@
-.navbar-expanded-md {
-	background-color: red;
-	display: flex;
-	justify-content: flex-end;
-}
-
-.icon-btn {
-	color: var(--color-secondary);
-}
-
 .Nav-Btn {
+	text-decoration: none;
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgb(48, 46, 46);
+	width: 100%;
+}
+
+.Nav-Btn:hover {
+	color: var(--color-secondary);
 	background-color: var(--color-primary);
+	text-decoration: none;
 }

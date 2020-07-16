@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navigation.css";
-import { FaSearch } from "react-icons/fa";
+import { FaSearch, FaYoutube, FaEllipsisH } from "react-icons/fa";
 import {
 	Navbar,
 	NavDropdown,
@@ -8,36 +8,57 @@ import {
 	FormControl,
 	Button,
 	Nav,
+	Dropdown,
 } from "react-bootstrap";
 
 function Navigation() {
 	return (
-		<div>
-			<Navbar expand="md">
-				<Navbar.Toggle aria-controls="basic-navbar-nav" />
-				<Navbar.Collapse id="basic-navbar-nav">
-					<Nav>
-						<Form inline>
-							<FormControl type="text" placeholder="Search" />
-							<Button style={{ backgroundColor: "#800" }}>
-								<FaSearch color="white" size="1.5rem"></FaSearch>
-							</Button>
-						</Form>
-						<NavDropdown title="Dropdown" id="basic-nav-dropdown">
-							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">
-								Another action
-							</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">
-								Separated link
-							</NavDropdown.Item>
-						</NavDropdown>
-					</Nav>
-				</Navbar.Collapse>
-			</Navbar>
-		</div>
+		<Navbar bg="light" expand="lg" sticky="top">
+			<Navbar.Toggle aria-controls="basic-navbar-nav" />
+			<Navbar.Collapse id="basic-navbar-nav">
+				<Nav className="d-flex justify-content-around w-100 px-5 shadow rounded">
+					<Nav.Link bsPrefix="Nav-Btn" href="#home">
+						Home
+					</Nav.Link>
+					<Nav.Link bsPrefix="Nav-Btn" href="#home">
+						Home
+					</Nav.Link>
+					<Nav.Link bsPrefix="Nav-Btn" href="#home">
+						Home
+					</Nav.Link>
+					<Nav.Link bsPrefix="Nav-Btn" href="#home">
+						Home
+					</Nav.Link>
+					<Nav.Link bsPrefix="Nav-Btn" href="#home">
+						Home
+					</Nav.Link>
+					<Nav.Link bsPrefix="Nav-Btn" href="#home">
+						Home
+					</Nav.Link>
+					<Nav.Link bsPrefix="Nav-Btn" href="#home">
+						Home
+					</Nav.Link>
+					<Nav.Link href="#home">
+						<Dropdown>
+							<Dropdown.Toggle className="Nav-Btn" variant="light">
+								<span>
+									<FaEllipsisH
+										size="2rem"
+										style={{ color: "rgb(48, 46, 46)" }}
+									></FaEllipsisH>
+								</span>
+							</Dropdown.Toggle>
+
+							<Dropdown.Menu>
+								<Dropdown.Item href="#/action-1">Buzz</Dropdown.Item>
+								<Dropdown.Item href="#/action-2">Fizz</Dropdown.Item>
+								<Dropdown.Item href="#/action-3">Guzz</Dropdown.Item>
+							</Dropdown.Menu>
+						</Dropdown>
+					</Nav.Link>
+				</Nav>
+			</Navbar.Collapse>
+		</Navbar>
 	);
 }
 

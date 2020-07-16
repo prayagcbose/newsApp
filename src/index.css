@@ -25,6 +25,7 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
+	overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
