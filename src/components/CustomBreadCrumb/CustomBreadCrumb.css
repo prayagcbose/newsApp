@@ -1,0 +1,11 @@
+.bg {
+	font-size: 2rem;
+	border-top: solid rgb(43, 42, 42) 1px;
+	border-bottom: solid rgb(43, 42, 42) 1px;
+	border-radius: 1rem;
+}
+
+.breadcrumb {
+	margin-bottom: 0 !important;
+	background-color: var(--color-secondary) !important;
+}

@@ -14,10 +14,11 @@
 	border-bottom: solid var(--color-primary) 0.5rem;
 	padding: 0.5rem;
 	text-transform: uppercase;
+	flex-wrap: nowrap;
 }
 
 .main-box .item-box {
-	max-height: 20rem;
+	max-height: 25rem;
 	overflow-y: scroll;
 }
 
@@ -30,7 +31,10 @@
 }
 
 .main-box .item {
-	padding: 2rem;
+	/* padding-left: 2rem; */
+	text-align: start;
+	max-height: 6rem;
+	max-width: fit-content;
 
 	/* display: flex;
 	flex-direction: column; */
