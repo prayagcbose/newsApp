@@ -18,7 +18,7 @@
 }
 
 .main-box .item-box {
-	max-height: 25rem;
+	max-height: 40rem;
 	overflow-y: scroll;
 }
 
@@ -30,12 +30,12 @@
 	display: none;
 }
 
-.main-box .item {
-	/* padding-left: 2rem; */
+/* .main-box .item {
+	
 	text-align: start;
 	max-height: 6rem;
-	max-width: fit-content;
+	margin-bottom: 3rem;
+	border-bottom: solid black 1px;
 
-	/* display: flex;
-	flex-direction: column; */
-}
+	
+} */

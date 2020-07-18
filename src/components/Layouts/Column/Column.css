@@ -1,0 +1,15 @@
+.main {
+	margin: 2rem;
+	border-bottom: solid rgba(73, 71, 71, 0.671) 1px;
+}
+
+.img-div {
+	width: 100%;
+	height: 85%;
+}
+
+.text-div {
+	vertical-align: middle;
+	font-size: 1rem;
+	font-weight: bold;
+}

@@ -8,8 +8,8 @@ import "./ControlledCarousel.css";
 
 function ControlledCarousel() {
 	return (
-		<div>
-			<Carousel interval="1000" indicators={false}>
+		<div className="container">
+			<Carousel interval={1000} indicators={false}>
 				<Carousel.Item>
 					<div className="img-container">
 						<img src={img1} alt="First slide" />

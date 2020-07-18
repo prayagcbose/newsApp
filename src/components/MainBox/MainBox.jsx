@@ -15,12 +15,7 @@ function MainBox(props) {
 			<div className="title">{props.title}</div>
 			<div className="item-box">
 				{inputArray.map((item, index) => {
-					return (
-						<div key={index} className="item">
-							{item}
-							<hr></hr>
-						</div>
-					);
+					return <div key={index}>{item}</div>;
 				})}
 			</div>
 		</div>
