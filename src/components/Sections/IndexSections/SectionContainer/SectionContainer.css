@@ -1,0 +1,13 @@
+.sc-title {
+	font-size: 4rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: var(--color-primary);
+}
+
+.sc-line {
+	width: 40%;
+	height: 2vh;
+	margin-bottom: 2rem;
+	background-color: var(--color-primary);
+}

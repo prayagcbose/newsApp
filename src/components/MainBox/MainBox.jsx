@@ -12,7 +12,7 @@ function MainBox(props) {
 
 	return (
 		<div className="main-box">
-			<div className="title">{props.title}</div>
+			{props.title ? <div className="title">{props.title}</div> : null}
 			<div className="item-box">
 				{inputArray.map((item, index) => {
 					return <div key={index}>{item}</div>;

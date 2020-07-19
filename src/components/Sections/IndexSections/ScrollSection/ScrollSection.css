@@ -1,0 +1,32 @@
+.ss-main {
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.ss-img {
+	display: inline-block;
+	width: 50rem;
+	height: 30rem;
+	position: relative;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 2rem;
+	margin: 2rem;
+	white-space: normal;
+	/* background-color: red; */
+	border-radius: 3.5rem;
+}
+
+.ss-img img {
+	border-radius: 15%;
+}
+
+.ss-img p {
+	bottom: 20%;
+	position: absolute;
+	word-wrap: break-word;
+	font-weight: 600;
+	font-size: 1.5rem;
+}

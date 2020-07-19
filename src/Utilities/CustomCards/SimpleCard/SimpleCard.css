@@ -1,0 +1,29 @@
+.sc-main-box {
+	border: solid rgb(66, 64, 64) 1px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	align-items: stretch;
+	text-align: center;
+	max-width: fit-content;
+}
+
+.sc-header {
+	background-color: var(--color-primary);
+	color: var(--color-secondary);
+	font-weight: bold;
+}
+
+.sc-state {
+	color: var(--color-primary);
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-top: 1rem;
+	margin-bottom: -2rem;
+}
+
+.sc-body p {
+	margin: 2rem auto;
+	font-size: 2rem;
+	font-weight: 700;
+}

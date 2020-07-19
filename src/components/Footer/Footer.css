@@ -1,0 +1,6 @@
+.footer-bg {
+	height: 20rem;
+	background-color: var(--color-primary);
+	color: var(--color-secondary);
+	margin-top: 10rem;
+}
