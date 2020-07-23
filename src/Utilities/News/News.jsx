@@ -2,6 +2,9 @@ import React from "react";
 import img2 from "./img/main-news1.jpg";
 import img1 from "./img/pinarayi.jpg";
 import Column from "../../components/Layouts/Column/Column";
+import TextOnImg from "../../components/Layouts/TextOnImg/TextOnImg";
+import sushand from "./img/sushand.jpg";
+import { Container, Row, Col } from "react-bootstrap";
 
 const LatestNews = [
 	<Column img={img2} text="മലയാളത്തിലേക്ക് ഇംഗ്ലീഷ് ലിപ്യന്തരണം"></Column>,
@@ -66,4 +69,31 @@ const Featured = [
 	></Column>,
 ];
 
-export { LatestNews, TopNews, Popular, Trending, Featured };
+const Photos = [
+	<TextOnImg
+		img={sushand}
+		text="
+ഞങ്ങളുടെ ഓൺലൈൻ സോഫ്റ്റ്വെയർ പര . . ."
+		subText="മലയാളത്തിലേക്ക് ഇംഗ്ലീഷ് ലിപ്യന്തരണം ചെയ്യുന്ന പ്രക്രിയ വളരെ വേഗത്തിലാ . . ."
+	></TextOnImg>,
+	<Container>
+		<Row>
+			<Col xs={6}>
+				<TextOnImg
+					img={sushand}
+					text="
+ഞങ്ങളുടെ ഓൺലൈൻ സോഫ്റ്റ്വെയർ പര . . .മലയാളത്തിലേക്ക് ഇംഗ്ലീഷ് ലിപ്യന്തരണം ചെയ്യുന്ന പ്രക്രിയ വളരെ വേഗത്തിലാ . . ."
+				></TextOnImg>
+			</Col>
+			<Col xs={6}>
+				<TextOnImg
+					img={sushand}
+					text="
+ഞങ്ങളുടെ ഓൺലൈൻ സോഫ്റ്റ്വെയർ പര . . .മലയാളത്തിലേക്ക് ഇംഗ്ലീഷ് ലിപ്യന്തരണം ചെയ്യുന്ന പ്രക്രിയ വളരെ വേഗത്തിലാ . . ."
+				></TextOnImg>
+			</Col>
+		</Row>
+	</Container>,
+];
+
+export { LatestNews, TopNews, Popular, Trending, Featured, Photos };

@@ -1,0 +1,23 @@
+.toi-main {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.toi-img {
+}
+
+.toi-text {
+	position: absolute;
+	color: var(--color-secondary);
+	font-size: 2rem;
+	bottom: 30%;
+	font-weight: 600;
+}
+
+.toi-text span {
+	position: absolute;
+	color: var(--color-secondary);
+	font-size: 1rem;
+	font-weight: 400;
+}

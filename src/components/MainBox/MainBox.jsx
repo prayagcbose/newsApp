@@ -3,18 +3,18 @@ import "./MainBox.css";
 import { useState } from "react";
 import { useEffect } from "react";
 
-function MainBox(props) {
-	const [inputArray, setInputArray] = useState([]);
+function MainBox({ inputArray, title }) {
+	const [inputArr, setInputArr] = useState([]);
 
 	useEffect(() => {
-		setInputArray(props.inputArray);
+		setInputArr(inputArray);
 	}, []);
 
 	return (
 		<div className="main-box">
-			{props.title ? <div className="title">{props.title}</div> : null}
+			{title ? <div className="title">{title}</div> : null}
 			<div className="item-box">
-				{inputArray.map((item, index) => {
+				{inputArr.map((item, index) => {
 					return <div key={index}>{item}</div>;
 				})}
 			</div>
