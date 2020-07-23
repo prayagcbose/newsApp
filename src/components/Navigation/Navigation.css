@@ -5,6 +5,14 @@
 	text-transform: uppercase;
 	color: rgb(48, 46, 46);
 	width: 100%;
+	border: none;
+}
+
+.Nav-Btn button {
+	text-align: left;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .Nav-Btn:hover {

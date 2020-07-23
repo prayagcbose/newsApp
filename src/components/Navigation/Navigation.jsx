@@ -10,6 +10,7 @@ import {
 	Nav,
 	Dropdown,
 } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Navigation() {
 	return (
@@ -20,8 +21,10 @@ function Navigation() {
 					<Nav.Link bsPrefix="Nav-Btn" href="#home">
 						Home
 					</Nav.Link>
-					<Nav.Link bsPrefix="Nav-Btn" href="#home">
-						Home
+					<Nav.Link bsPrefix="Nav-Btn">
+						<Link to="/SpecificNews">
+							<button className="Nav-Btn">Kerala</button>
+						</Link>
 					</Nav.Link>
 					<Nav.Link bsPrefix="Nav-Btn" href="#home">
 						Home
