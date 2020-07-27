@@ -30,12 +30,21 @@
 	display: none;
 }
 
-/* .main-box .item {
-	
-	text-align: start;
-	max-height: 6rem;
-	margin-bottom: 3rem;
-	border-bottom: solid black 1px;
+.main-box-updates {
+	background-color: var(--color-secondary);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: solid rgba(44, 43, 43, 0.555) 1px;
+}
 
-	
-} */
+.main-box-updates .title {
+	flex-grow: 1;
+	height: fit-content;
+	color: var(--color-secondary);
+	font-size: 3rem;
+	font-weight: bold;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	flex-wrap: nowrap;
+}

@@ -10,7 +10,7 @@ import {
 	Featured,
 } from "../../../../Utilities/News/News";
 import adhome from "./ad-home.jpg";
-import SimpleCard from "./../../../../Utilities/CustomCards/SimpleCard/SimpleCard";
+import SimpleCard from "../../../SimpleCard/SimpleCard";
 
 import "./IndexSection1.css";
 
@@ -45,7 +45,7 @@ function IndexSection1() {
 						</Col>
 						<Col md={6} sm={12}>
 							<Row className="d-flex justify-content-center align-items-stretch">
-								<SimpleCard></SimpleCard>
+								<SimpleCard inputArray={[<p>ph: 990899</p>]}></SimpleCard>
 							</Row>
 							<Row className="d-flex justify-content-start align-items-stretch">
 								<MainBox title="Trending" inputArray={Trending}></MainBox>

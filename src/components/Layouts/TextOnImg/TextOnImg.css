@@ -2,9 +2,14 @@
 	width: 100%;
 	position: relative;
 	overflow: hidden;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	box-shadow: black;
 }
 
 .toi-img {
+	/* width: 100%; */
 }
 
 .toi-text {
@@ -13,11 +18,14 @@
 	font-size: 2rem;
 	bottom: 30%;
 	font-weight: 600;
+	padding: 1rem;
 }
 
-.toi-text span {
+.toi-text-sub {
 	position: absolute;
 	color: var(--color-secondary);
-	font-size: 1rem;
-	font-weight: 400;
+	font-size: 1.3rem;
+	bottom: 5%;
+	font-weight: 200;
+	padding: 1rem;
 }
