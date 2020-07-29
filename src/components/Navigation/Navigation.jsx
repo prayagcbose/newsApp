@@ -18,28 +18,40 @@ function Navigation() {
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="d-flex justify-content-around w-100 px-5 shadow rounded">
-					<Nav.Link bsPrefix="Nav-Btn" href="#home">
-						Home
+					<Nav.Link bsPrefix="Nav-Btn">
+						<Link to="/">
+							<button className="Nav-Btn">Home</button>
+						</Link>
 					</Nav.Link>
 					<Nav.Link bsPrefix="Nav-Btn">
-						<Link to="/SpecificNews">
+						<Link to="/SpecificNews/Kerala">
 							<button className="Nav-Btn">Kerala</button>
 						</Link>
 					</Nav.Link>
-					<Nav.Link bsPrefix="Nav-Btn" href="#home">
-						Home
+					<Nav.Link bsPrefix="Nav-Btn">
+						<Link to="/SpecificNews/India">
+							<button className="Nav-Btn">India</button>
+						</Link>
 					</Nav.Link>
-					<Nav.Link bsPrefix="Nav-Btn" href="#home">
-						Home
+					<Nav.Link bsPrefix="Nav-Btn">
+						<Link to="/SpecificNews/Gulf">
+							<button className="Nav-Btn">Gulf</button>
+						</Link>
 					</Nav.Link>
-					<Nav.Link bsPrefix="Nav-Btn" href="#home">
-						Home
+					<Nav.Link bsPrefix="Nav-Btn">
+						<Link to="/SpecificNews/Videos">
+							<button className="Nav-Btn">Videos</button>
+						</Link>
 					</Nav.Link>
-					<Nav.Link bsPrefix="Nav-Btn" href="#home">
-						Home
+					<Nav.Link bsPrefix="Nav-Btn">
+						<Link to="/SpecificNews/Sports">
+							<button className="Nav-Btn">sports</button>
+						</Link>
 					</Nav.Link>
-					<Nav.Link bsPrefix="Nav-Btn" href="#home">
-						Home
+					<Nav.Link bsPrefix="Nav-Btn">
+						<Link to="/SpecificNews/Entertainment">
+							<button className="Nav-Btn">entertainment</button>
+						</Link>
 					</Nav.Link>
 					<Nav.Link href="#home">
 						<Dropdown>

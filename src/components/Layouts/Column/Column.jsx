@@ -4,7 +4,6 @@ import { Row } from "react-bootstrap";
 import "./Column.css";
 
 function Column({ img, imgFill = false, mainText, text, subText }) {
-	//props needed : img, imgFill = {true/flase}, mainText, text
 	return (
 		<Container fluid className="main">
 			<Row className="d-flex align-items-start p-2">

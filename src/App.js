@@ -9,7 +9,7 @@ function App() {
 		<Router>
 			<Switch>
 				<Route path="/" exact component={Index}></Route>
-				<Route path="/SpecificNews" component={SpecificNews}></Route>
+				<Route path="/SpecificNews/:place" component={SpecificNews}></Route>
 				<Route path="/DetailedNews" component={DetailedNews}></Route>
 			</Switch>
 		</Router>

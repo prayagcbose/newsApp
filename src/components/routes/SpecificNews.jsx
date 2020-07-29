@@ -10,8 +10,10 @@ import CustomBreadCrumb from "./../CustomBreadCrumb/CustomBreadCrumb";
 import Footer from "./../Footer/Footer";
 import MainBox from "./../MainBox/MainBox";
 import { CurrentNews } from "../../Utilities/News/News";
+import { useParams } from "react-router-dom";
 
 function SpecificNews() {
+	let { place } = useParams();
 	return (
 		<div>
 			<Header></Header>
@@ -20,6 +22,7 @@ function SpecificNews() {
 			<Container>
 				<Row>
 					<Col md={8}>
+						<h1>{place}</h1>
 						<MainBox inputArray={CurrentNews} fullHeight></MainBox>
 					</Col>
 					<Col md={4}>
