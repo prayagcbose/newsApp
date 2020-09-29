@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import ControlledCarousel from "../../../ControllerCarousel/ControlledCarousel";
 import MainBox from "../../../MainBox/MainBox";
 import {

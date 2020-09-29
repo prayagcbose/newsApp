@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Col } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import "./Column.css";
+import { Link } from "react-router-dom";
 
 function Column({ img, imgFill = false, mainText, text, subText }) {
 	return (
@@ -9,9 +10,11 @@ function Column({ img, imgFill = false, mainText, text, subText }) {
 			<Row className="d-flex align-items-start p-2">
 				{img ? (
 					<Col xs={imgFill ? 12 : 6} className="d-flex align-items-center">
-						<div className="img-div">
-							<img src={img}></img>
-						</div>
+						<Link to={`/DetailedNews/${text}`}>
+							<div className="img-div">
+								<img src={img}></img>
+							</div>
+						</Link>
 					</Col>
 				) : null}
 				<Col>
